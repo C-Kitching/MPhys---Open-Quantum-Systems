@@ -1,0 +1,27 @@
+ALGORITHMIC TRADING STRATEGIES WITH MACHINE LEARNING TECHNIQUES DURING THE COVID-19 MARKET CRASH
+
+Algorithmic trading is a method of executing market orders using computer programs which make decisions based on variables such as price, volume and liquditity.
+This strategy has been increasingly adopted by large institutions like investment banks or hedge funds in an attempt to give them an edge in the 
+market, as it presents many advantages. These include accuracy, reduced cost and most notably speed, with algorithms being able to capitilise on market opportunities
+in fractions of a time that it would take a human trader. Ultimately, this has made markets far more efficient.
+
+These algorithms, although efficient at a given moment in time, need constant updating by programmers and quant strategists as markets change. This results in algorithms
+becomming increasingly more complex and difficult to work with. To combat this, firms such as JP Morgan have began utilising machine 
+learning to update their algorithms with no human intervention. Traditional algorithms struggle to react to external news which might effect the
+market. Most recently, the COVID-19 pandemic sparked a global market crash. It is thought that ML algorithms will be able to adjust to the surge in volatility preciptated
+by the events to negelct negative market movements on portfolios.
+
+In this project we will analyse the historical effect of external events on markets. We will initially attempt to program a simple algorithm, such as a long-short equity
+strategy, using an open source API like the one provided by Quantopian and financial data from the likes of morningstar. We will backtest the algorithm during previous 
+market crashes and bear markets, such as the 2008 financial crisis and the COVID-19 crash, and attempt to outperform a certain benchmark such as the SPY. We will then go 
+onto look at the benefits of machine learning in a strategy such as pairs trading. This strategy considers two hisorically correlated securties and bets on the 'spread'
+between them converging if their correlation has recently temporarily weakened. We will use machine learning techniques to find suitable candidate pairs andinvestigate 
+this strategy further.
+
+Another interesting aspect, for potential consideration next semester, is numerical and computational finance. 
+This idea will recieve further development nearer the time. 
+
+
+
+
+

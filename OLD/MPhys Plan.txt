@@ -1,0 +1,10 @@
+MASTERS PLAN
+
+SEMESTER 1 - Algorithmic Trading
+1. Diversify portfolio to recude risk, monte carlo techniques 
+2. Beta hedging against the market to negate downturns
+3. long short equity strategy with simple moving average alpha
+4. using a second equity to hedge
+5. machine learning to choose the pairs
+
+SEMESTER 2 - Monte Carlo to value securities

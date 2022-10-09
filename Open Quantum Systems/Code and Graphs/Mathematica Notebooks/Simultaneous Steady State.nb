@@ -1,0 +1,143 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      4830,        133]
+NotebookOptionsPosition[      4203,        113]
+NotebookOutlinePosition[      4749,        132]
+CellTagsIndexPosition[      4706,        129]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"\[CapitalOmega]", " ", "=", " ", "1"}], ";", " ", 
+    RowBox[{"\[CapitalGamma]", " ", "=", " ", 
+     RowBox[{"\[CapitalOmega]", "/", "6"}]}], ";", " ", 
+    RowBox[{"\[Nu]", " ", "=", " ", "0"}], ";", " ", 
+    RowBox[{"n", " ", "=", " ", "10"}], ";"}], "\[IndentingNewLine]", 
+   "\[IndentingNewLine]", 
+   RowBox[{"Solve", "[", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "2"}], "\[CapitalGamma]", "*", 
+         RowBox[{"(", 
+          RowBox[{"1", "+", "n"}], ")"}], "*", "w"}], " ", "+", 
+        RowBox[{"\[ImaginaryI]", "*", 
+         RowBox[{"\[CapitalOmega]", "/", "2"}], "*", "x"}], " ", "-", 
+        RowBox[{"\[ImaginaryI]", "*", 
+         RowBox[{"\[CapitalOmega]", "/", "2"}], "*", "y"}], "+", 
+        RowBox[{"2", "\[CapitalGamma]", "*", "n", "*", "z"}]}], "\[Equal]", 
+       " ", "0"}], " ", "&&", " ", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"\[ImaginaryI]", "*", 
+         RowBox[{"\[CapitalOmega]", "/", "2"}], "*", "w"}], "+", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{
+            RowBox[{"-", "\[ImaginaryI]"}], "*", "\[Nu]"}], "-", 
+           RowBox[{"\[CapitalGamma]", "*", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"2", "n"}], "+", "1"}], ")"}]}]}], ")"}], "*", "x"}], 
+        "-", 
+        RowBox[{"\[ImaginaryI]", "*", 
+         RowBox[{"\[CapitalOmega]", "/", "2"}], "*", "z"}]}], " ", "\[Equal]",
+        " ", "0"}], " ", "&&", "\[IndentingNewLine]", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", "\[ImaginaryI]"}], "*", 
+         RowBox[{"\[CapitalOmega]", "/", "2"}], "*", "w"}], "+", 
+        RowBox[{"\[ImaginaryI]", "*", 
+         RowBox[{"\[CapitalOmega]", "/", "2"}], "*", "x"}], "+", 
+        RowBox[{
+         RowBox[{"(", 
+          RowBox[{
+           RowBox[{"\[ImaginaryI]", "*", "\[Nu]"}], "-", 
+           RowBox[{"\[CapitalGamma]", "*", 
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"2", "n"}], "+", "1"}], ")"}]}]}], ")"}], "*", "y"}]}], 
+       " ", "\[Equal]", "0"}], " ", "&&", "\[IndentingNewLine]", " ", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"\[ImaginaryI]", "*", "\[CapitalGamma]", "*", 
+          RowBox[{"(", 
+           RowBox[{"n", "+", "1"}], ")"}], "*", "w"}]}], "-", 
+        RowBox[{"\[ImaginaryI]", "*", 
+         RowBox[{"\[CapitalOmega]", "/", "2"}], "*", "x"}], "+", 
+        RowBox[{"\[ImaginaryI]", "*", 
+         RowBox[{"\[CapitalOmega]", "/", "2"}], "*", "y"}], "-", 
+        RowBox[{"2", "\[CapitalGamma]", "*", "n", "*", "z"}]}], " ", 
+       "\[Equal]", " ", "0"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"{", 
+      RowBox[{"w", ",", " ", "x", ",", " ", "y", ",", " ", "z"}], "}"}]}], 
+    "]"}], " "}]}]], "Input",
+ CellChangeTimes->{{3.8185759933540926`*^9, 3.8185760309631567`*^9}, {
+  3.81857609439611*^9, 3.8185761688937635`*^9}, {3.818576447180361*^9, 
+  3.8185764472481813`*^9}, {3.8185764831653166`*^9, 3.8185764834475565`*^9}},
+ CellLabel->"In[5]:=",ExpressionUUID->"6e546b4a-2b90-49bf-9bdd-9bda999abe00"],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"w", "\[Rule]", "0"}], ",", 
+    RowBox[{"x", "\[Rule]", "0"}], ",", 
+    RowBox[{"y", "\[Rule]", "0"}], ",", 
+    RowBox[{"z", "\[Rule]", "0"}]}], "}"}], "}"}]], "Output",
+ CellChangeTimes->{3.8185761895353107`*^9, 3.8185764489511857`*^9, 
+  3.818576486589571*^9},
+ CellLabel->"Out[6]=",ExpressionUUID->"18aefe42-d963-4ee5-ac7d-3154d8f8f2f8"]
+}, Open  ]]
+},
+WindowSize->{897.5999999999999, 524.4},
+WindowMargins->{{Automatic, 60.600000000000136`}, {
+  14.399999999999977`, Automatic}},
+TaggingRules->{
+ "WelcomeScreenSettings" -> {"FEStarting" -> False}, "TryRealOnly" -> False},
+FrontEndVersion->"12.1 for Microsoft Windows (64-bit) (March 18, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1a408c14-a3f4-4214-975e-6fd17dac0370"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 3192, 76, 166, "Input",ExpressionUUID->"6e546b4a-2b90-49bf-9bdd-9bda999abe00"],
+Cell[3775, 100, 412, 10, 32, "Output",ExpressionUUID->"18aefe42-d963-4ee5-ac7d-3154d8f8f2f8"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
